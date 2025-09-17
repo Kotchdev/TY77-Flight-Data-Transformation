@@ -1,4 +1,3 @@
-# Power BI Data Transformation Project
 
 ## 📌 Project Overview
 This project focuses on transforming a raw dataset into a structured model ready for analysis using Power BI.  
