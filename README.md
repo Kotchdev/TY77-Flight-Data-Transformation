@@ -49,7 +49,7 @@ Example step:
 
 ---
 
-## 📊 (Optional) Summary Dashboard
+## 📊 (Bonus) Summary Dashboard
 ![Dashboard Screenshot](./screenshots/dashboard.png)  
 *A simple validation dashboard showing record counts and summary sales figures after cleaning.*  
 
