@@ -55,13 +55,15 @@ Example step:
 
 ---
 
-## 📊 Key Transformations & Insights
-- **Merged tables** to combine travel location data with flight details, creating a single, enriched dataset.  
-- **Grouped data by key columns** (e.g., flight month, airline, departure time, arrival time ) and aggregated metrics such as:  
-  - Average duration of flights 
-  - Average price across flights 
-- Derived the time of day for flights from the flight hour
-- The final dataset is structured, reliable, and ready for building dashboards or advanced analysis.  
+## 🔎 Key Transformations & Insights
+- Transformed `dep_time` into categorical labels using DAX & IF-ELSE logic, allowing segmentation by time of day.  
+- Merged the *routes* and *flights* tables to enrich flight records with route metadata.  
+- Grouped by destination, airline, and time of day, aggregating average duration and average price for each grouping.  
+
+## 📈 What This Enables
+- Enables comparison of flight performance across different times of day and airlines.  
+- Helps identify which airline models and routes are more cost-effective based on average price vs. duration metrics.  
+- Lays groundwork for predictive analytics (e.g., predicting delays or optimizing routes) using clean, structured data.  
 
 ---
 
