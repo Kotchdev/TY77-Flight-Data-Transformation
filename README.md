@@ -33,9 +33,7 @@ A few key transformations performed in **Power Query**:
 
 Example step:  
 ![Step Screenshot](./screenshots/s2.png)  
-*1.Converted dep_time into whole number
-2.Using **DAX** divided the derived whole numbers by 4 and added the column dep_time_of_day
-3. By using **IF ELSE** statements I added clauses for each time of the day*  
+*I transformed the dep_time column into time-of-day categories by converting it to whole numbers, dividing with DAX, and applying IF-ELSE logic to label each period.*  
 
 ---
 
