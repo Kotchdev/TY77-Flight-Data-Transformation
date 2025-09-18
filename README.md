@@ -9,7 +9,7 @@ While many dashboards are built from clean data, real-world datasets are often m
 The dataset provided included inconsistencies such as:  
 - Mixed data types (numbers stored as text, dates unformatted)  
 - Missing/duplicate entries  
-- Unstructured product/category information  
+- Unstructured flight/destination information  
 
 ---
 
@@ -23,15 +23,17 @@ The dataset provided included inconsistencies such as:
 
 ### 2. Transformation Steps
 A few key transformations performed in **Power Query**:
-- Converted Sales and Profit fields to **Currency** format  
-- Split product details into **Category / Subcategory**  
+- Converted dep_time and arr_time (eg. 02:24) to time label format (eg. 'morning') 
+- Split airline details into **airline / airplane**  
 - Cleaned missing values and removed duplicates  
 - Standardized Date format  
 - Created calculated columns and measures using **DAX**  
 
 Example step:  
 ![Step Screenshot](./screenshots/s2.png)  
-*Splitting Category into Category/Subcategory.*  
+*1.Converted dep_time into whole number
+2.Using **DAX** divided the derived whole numbers by 4 and added the column dep_time_of_day
+3. By using **IF ELSE** statements I added clauses for each time of the day*  
 
 ---
 
