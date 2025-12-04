@@ -1,7 +1,7 @@
 
 ## 📌 Project Overview
-This project focuses on transforming a raw dataset into a structured model ready for analysis using Power BI.  
-While many dashboards are built from clean data, real-world datasets are often messy. The goal of this project was to demonstrate how I use **Power Query** and **DAX** in Power BI to clean, model, and prepare data for reporting.  
+> This project focuses on transforming a raw dataset into a structured model ready for analysis using Power BI.  
+> While many dashboards are built from clean data, real-world datasets are often messy. The goal of this project was to demonstrate how I use **Power Query** and **DAX** in Power BI to clean, model, and prepare data for reporting.  
 
 ---
 
